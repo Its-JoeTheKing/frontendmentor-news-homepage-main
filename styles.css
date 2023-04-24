@@ -99,7 +99,7 @@ section {
 .news {
     border-bottom: 1px solid #cccde2;
 }
-.news h3 {
+.news h4 {
     color: rgb(255, 255, 255);
     font-family: "Inter";
     font-weight: bold;
