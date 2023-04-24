@@ -30,7 +30,7 @@ header {
 ul {
     float: right;
 }
-a li {
+li {
     display: inline;
     margin-right: 50px;
 }
