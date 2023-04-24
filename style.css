@@ -63,6 +63,7 @@ section {
 .foot {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    position: relative;
 }
 .foot h1 {
     font-size: 45px;
@@ -73,6 +74,7 @@ section {
 }
 .foot p {
     color: rgb(26, 26, 26);
+    margin-top: 40px;
 }
 .foot .r {
     width: 150px;
@@ -159,6 +161,9 @@ section {
 .desk {
     display: block;
 }
+.r {
+    letter-spacing: 5px;
+}
 @media screen and (max-width: 700px) {
     header .logo {
         position: relative;
@@ -177,6 +182,7 @@ section {
     }
     .foot {
         display: block;
+        position: relative;
     }
     .foot p {
         padding: 0;
@@ -184,7 +190,6 @@ section {
     }
     .foot .r {
         margin: 0;
-        letter-spacing: 5px;
     }
     .s11 .foot h1 {
         padding: 0;
