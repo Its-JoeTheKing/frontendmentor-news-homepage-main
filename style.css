@@ -2,6 +2,10 @@
     font-family: "Inter";
     src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
+@font-face {
+    font-family: "Inter Bold";
+    src: url("./assets/fonts/static/Inter-ExtraBold.ttf");
+}
 * {
     font-family: "Inter";
 }
@@ -34,23 +38,19 @@ li {
     display: inline;
     margin-right: 50px;
 }
-header h1 {
+header .logo {
     position: absolute;
     top: 0;
     left: 0;
     margin: 0;
     padding: 10px;
-    font-size: 40px;
-}
-h1 {
-    position: relative;
 }
 header a {
     text-decoration: none;
     color: rgb(29, 29, 29);
 }
 section {
-    margin-top: 10%;
+    margin-top: 12%;
     width: 80%;
     margin-left: 10%;
     display: grid;
@@ -65,9 +65,9 @@ section {
     grid-template-columns: 1fr 1fr;
 }
 .foot h1 {
-    font-size: 40px;
-    padding-right: 25%;
-    font-family: "Inter";
+    font-size: 45px;
+    padding-right: 15%;
+    font-family: "Inter Bold";
     font-weight: bold;
     color: rgb(26, 26, 26);
 }
@@ -108,11 +108,10 @@ section {
     color: rgb(107, 105, 117);
 }
 .bottom {
-    margin-top: 20px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    padding-bottom: 5%;
 }
 .bottom .cards {
     display: grid;
@@ -132,6 +131,10 @@ section {
 .side {
     display: grid;
     gap: 5px;
+}
+.side p {
+    font-weight: normal;
+    color: rgb(26, 26, 26);
 }
 .cards img {
     width: 100%;
